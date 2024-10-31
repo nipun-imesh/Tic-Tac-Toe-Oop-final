@@ -1,0 +1,26 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #FF6F61, #FF4C6D);
+}
+
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20;
+    -fx-text-fill:linear-gradient(to bottom, #FF6F61, #FF4C6D);
+    -fx-font-size: 18px;
+    -fx-border-color: transparent;
+    -fx-padding: 10px;
+}
+.gridpane{
+    -fx-background-color: linear-gradient(to bottom, #D2FF72, #76FF03);
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.name{
+    -fx-prompt-text-fill:  linear-gradient(to bottom , #FF6F61, #FF4C6D);;
+    -fx-font-size: 20px;
+    -fx-font-family: "MV Boli";
+    -fx-background-radius: 40px;
+    -fx-border-radius: 20px;
+    -fx-text-fill: linear-gradient(to bottom , #FF6F61, #FF4C6D);
+}

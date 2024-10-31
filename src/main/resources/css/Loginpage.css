@@ -1,0 +1,55 @@
+
+.button{
+    -fx-padding: 10px,30px;
+    -fx-text-fill: linear-gradient(to bottom , #FF6F61, #FF4C6D);
+    -fx-font-size: 20px;
+    -fx-font-family: "MV Boli";
+    -fx-background-radius: 40px;
+    -fx-border-color: #ff6600;
+    -fx-border-radius: 20px;
+    -fx-hover-background-color: #ff6600;
+    -fx-prompt-text-fill:  linear-gradient(to bottom , #FF6F61, #FF4C6D);
+
+}
+.button:hover{
+    -fx-background-insets: 5,1,2;
+    -fx-background-radius: 40px;
+    -fx-border-radius: 20px;
+    -fx-text-fill: linear-gradient(to bottom , #FF6F61, #FF4C6D);
+    -fx-font-size: 14px;
+}
+
+
+.button1 {
+    -fx-padding: 10px, 30px;
+    -fx-text-fill: #ff6600;
+    -fx-font-size: 71px;
+    -fx-font-family: "MV Boli";
+    -fx-background-radius: 20px;
+    -fx-border-color: #ff6600;
+    -fx-border-radius: 20px;
+}
+.button1:hover{
+    -fx-background-insets: 5,1,2;
+    -fx-background-radius: 40px;
+    -fx-border-radius: 20px;
+    -fx-border-width:5px;
+    -fx-text-fill: #ff6600;
+    -fx-font-size: 60px;
+    -fx-font-family: "MV Boli";
+}
+
+
+
+
+.titel{
+    -fx-font-family: "MV Boli";
+    -fx-font-size: 66px;
+    -fx-text-fill: linear-gradient(to bottom , #FF6F61, #FF4C6D);
+
+
+}
+.label{
+    -fx-font-family: "MV Boli";
+    -fx-text-color: #ffffff;
+}

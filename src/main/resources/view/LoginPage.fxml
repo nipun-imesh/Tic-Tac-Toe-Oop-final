@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ANKmainpage" prefHeight="750.0" prefWidth="550.0" stylesheets="@../css/buton.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.tictactoe.tictactoe.controller.LoginPage">
+   <children>
+      <Rectangle fx:id="REc1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="118.0" layoutX="-1.0" layoutY="-1.6" stroke="WHITE" strokeType="INSIDE" width="553.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="118.0" prefWidth="554.0" text="Tic-Tac-Toe" textFill="#ff6600">
+         <font>
+            <Font name="MV Boli" size="66.0" />
+         </font>
+         <stylesheets>
+            <URL value="@../css/Loginpage.css" />
+            <URL value="@../css/buton.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="titel" />
+            <String fx:value="gridpane" />
+         </styleClass>
+      </Label>
+      <ImageView fitHeight="214.0" fitWidth="260.0" layoutX="149.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="149.0" AnchorPane.rightAnchor="149.0">
+         <image>
+            <Image url="@../image/Screenshot_2024-10-15_161737-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="TXTName" alignment="CENTER" layoutX="147.0" layoutY="415.0" prefHeight="46.0" prefWidth="260.0" promptText="NAME" styleClass="name" stylesheets="@../css/buton.css" AnchorPane.leftAnchor="147.0" AnchorPane.rightAnchor="147.0">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="488.0" prefHeight="60.0" prefWidth="310.0" styleClass="h1" stylesheets="@../css/buton.css" text="ENTER NAME" textFill="WHITE" AnchorPane.leftAnchor="122.0" AnchorPane.rightAnchor="122.0">
+         <font>
+            <Font name="MV Boli" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="BUTstart" layoutX="218.0" layoutY="569.0" mnemonicParsing="false" onAction="#goPLayPageActoiuin" prefHeight="37.0" prefWidth="114.0" styleClass="gridpane" text="start" textAlignment="CENTER" textFill="#ff6600" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="220.0">
+         <font>
+            <Font name="MV Boli" size="20.0" />
+         </font>
+         <stylesheets>
+            <URL value="@../css/Loginpage.css" />
+            <URL value="@../css/buton.css" />
+         </stylesheets>
+      </Button>
+   </children>
+</AnchorPane>
